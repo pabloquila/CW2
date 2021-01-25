@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 2px 0;
+    background: rgba(0, 0, 0, 0.9);
+} 
+
+    #header.header-transparent {
+        background: white;
+    }
+
+
+#header .logo {
+    font-size: 34px;
+    margin: 0;
+    margin-left: -50px;
+    padding: 0;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    /* border-left: 4px solid #18d26e; */
+}
+
+#header .logo a {
+    color: #fff;
+}
+
+#header .logo img {
+    max-height: 50px;
+}
+
+@media (max-width: 992px) {
+    #header .logo {
+        font-size: 28px;
+    }
+}
+
+/*--------------------------------------------------------------
+    # Navigation Menu
+    --------------------------------------------------------------*/
+    /* Desktop Navigation */
+    .nav-menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    
+    .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+        color: #18d26e;
+    }
+
+    
+/*BODY*/
+
+body {
+  font-family: "Poppins", sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      color: #121212;
+      padding-bottom: 0px;
+     }
+
+img {
+  max-width: 100%; }
+
+
+.carousel-item {
+  background-color: #0067f4;
+  position: relative;
+  height: 600px;
+ }
+  
+  .carousel-item .slider-image-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 9; }
+    .carousel-item .slider-image-box .slider-image {
+      max-width: 680px;
+      width: 100%; }
+
+.slider-content {
+  position: relative;
+  z-index: 9;
+  padding-top: 240px;
+  padding-bottom: 200px; }
+  @media (max-width: 767px) {
+    .slider-content {
+      padding-top: 190px;
+      padding-bottom: 150px; } }
+  .slider-content .title {
+    font-size: 88px;
+    line-height: 96px;
+    color: #fff;
+    font-weight: 700; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .slider-content .title {
+        font-size: 58px;
+        line-height: 80px; } }
+    
+  
+
